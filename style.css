@@ -122,6 +122,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+.logo {
+	margin-left: 1090px;
+	width: 200px;
+	height: 100px}
+
 /* Apartado Responive  */
 
 @media (min-width: 320px) and (max-width: 600px) {
@@ -132,3 +137,4 @@ a:hover {
 
 @media (min-width: 900px) {
 }
+

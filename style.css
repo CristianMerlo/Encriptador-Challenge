@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	color:rgba(0, 0, 0, 0.753);
+}
+
+body {
+	background-image: url(/images/Encriptar.jpg);
+	background-size: cover;
+}
+
+.caja_encriptador {
+	background: rgba(255, 255, 255, 0.11);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+	backdrop-filter: blur(6.5px);
+	-webkit-backdrop-filter: blur(8px);
+	border-radius: 80px;
+	border: 10px solid rgba(0, 0, 0, 0.1);
+
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 60px;
+}
+
+h4 {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.mensaje_encriptado,
+.mensaje_desencriptado {
+	background: rgba(250, 250, 250, 0.233);
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.637);
+
+	text-transform: lowercase;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: dar;
+	position: relative;
+	outline: none;
+}
+
+.mensaje_encriptado:hover,
+.mensaje_desencriptado:hover {
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.btn_encriptar,
+.btn_desencriptar{
+	background: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(7.5px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+
+	width: auto;
+	height: auto;
+	border: none;
+	color: darkred;
+	font-size: 25px;
+	margin-left: 6px;
+	margin-bottom: 5px;
+	padding: 15px;
+}
+
+.btn_copy {
+	background: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(7.5px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+
+	width: auto;
+	height: auto;
+	border: none;
+	color: darkred;
+	font-size: 25px;
+	margin-left: 110px;
+	margin-bottom: 5px;
+	padding: 15px;
+}
+
+.btn_encriptar:hover,
+.btn_desencriptar:hover,
+.btn_copy:hover {
+	background: rgba(255, 255, 255, 0.8);
+	cursor: pointer;
+	transition: 0.18s;
+	scale: 1.035;
+}
+
+footer {
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(3px);
+	border: 1px solid rgba(0, 0, 0, 0.01);
+
+	padding: 2px;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: right;
+	font-size: 20px;
+}
+
+li,
+i {
+	display: inline;
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Apartado Responive  */
+
+@media (min-width: 320px) and (max-width: 600px) {
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+}
+
+@media (min-width: 900px) {
+}

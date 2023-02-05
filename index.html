@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/27863d48fd.js" crossorigin="anonymous"></script>
+
+		<title>Enciptador de texto</title>
+	</head>
+
+	<body>
+		<section class="caja_encriptador">
+			<h3><align.centre>Solo letras minúsculas y sin acentos</h3>
+            <br>
+
+			<textarea class="mensaje_encriptado" cols="30" rows="3" placeholder="Ingrese su texto aquí"></textarea>
+
+			<div class="botones">
+				<button class="btn_encriptar">Encriptar</button>
+				<button class="btn_desencriptar" id="btn_desencriptar">Desencriptar</button>
+			</div>
+
+			<textarea class="mensaje_desencriptado" id="mensaje_desencriptado" cols="30" rows="3"></textarea>
+			<button class="btn_copy" id="btn_copy" onclick="copiar()";>Copiar</button>
+
+		</section>
+        <section>
+            <img class="logo" src="/images/logo.png" alt="logo de Alura">
+        </section>
+
+	</body>
+
+	<footer id="social_media" class="social_media" role="contentinfo">
+
+		<div class="social_media_icons">
+
+			<p>Powered by Cristian Merlo & Alura - 2023</p>
+
+		</div>
+	  
+		<nav class="footer-nav" role="navigation">
+		</nav>
+	  </footer>
+
+
+<script src="script.js"></script>
+</html>
